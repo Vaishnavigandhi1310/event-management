@@ -30,6 +30,8 @@ eventRoute.route("/check-user/:uname")
             return err;
         else
             res.json(data);
+            // res.json(data);
+
 
     })
 })

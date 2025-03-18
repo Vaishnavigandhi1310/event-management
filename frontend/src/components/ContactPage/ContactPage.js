@@ -196,7 +196,7 @@ class ContactPage extends Component {
         from_email: this.state.email,
         message: this.state.message,
       };
-
+ 
       emailjs
         .send(
           'service_nwq2j0w', // 🔹 Service ID
